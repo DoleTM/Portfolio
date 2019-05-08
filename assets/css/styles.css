@@ -201,3 +201,12 @@ body {
     -ms-transform: translateX(26px);
     transform: translateX(26px);
   }
+
+/* Resume styles */
+.resume-left {
+    float: left;
+}
+
+.resume-right {
+    float: right;
+}
