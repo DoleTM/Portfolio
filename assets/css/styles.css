@@ -238,3 +238,24 @@ body {
     float: right;
     margin-right: auto;
 }
+
+.tech {
+    text-align: center;
+}
+
+.front-end {
+    float: left;
+}
+
+.back-end {
+    float: right;
+}
+
+/* Contact Styles */
+.find-me {
+    text-align: center;
+}
+
+.message-me {
+    color: aquamarine;
+}
