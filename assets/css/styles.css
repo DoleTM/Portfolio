@@ -219,9 +219,8 @@ body {
     margin: auto;
 }
 
-.resume-right {
-    float: right;
-    margin-right: auto;
+.logo-left {
+    float: left;
 }
 
 /* Deployed Projects Styles */
