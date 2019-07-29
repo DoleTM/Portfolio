@@ -228,14 +228,8 @@ body {
     margin: auto;
 }
 
-.deployed-projects {
-    float: left;
+.card-margin {
     margin: auto;
-}
-
-.solo-work {
-    float: right;
-    margin-right: auto;
 }
 
 .tech {
