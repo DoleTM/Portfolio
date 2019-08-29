@@ -9,6 +9,20 @@ nav {
     border-bottom-color: rgba(0,0,0,.125);
 }
 
+.left a:hover {
+    background: linear-gradient(#ff8a00,#da1b60);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    background: linear-gradient(#ff8a00,#da1b60);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .left {
     float: left;
     display: block;
@@ -27,19 +41,32 @@ nav {
     color: white;
 }
 
+.nav-link:hover {
+    color: black;
+}
+
 .hvr-sweep-to-right:before {
-    background-image: linear-gradient(to right, #404cf3, #da1b60);
+    background-image: url("https://image.freepik.com/free-photo/decorative-background-wood-texture_23-2148210007.jpg");
 }
 
 .hvr-sweep-to-left:before {
-    background-image: linear-gradient(to right, #fffb00, #35D8B3);
+    background-image: url("https://image.freepik.com/free-photo/wave-sea_1150-10745.jpg");
 }
 
 .hvr-icon-fade:hover .hvr-icon, .hvr-icon-fade:focus .hvr-icon, .hvr-icon-fade:active .hvr-icon {
-    color: black;
-  }
+    background: linear-gradient(#ff8a00,#da1b60);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
 
 /* Header Styles */
+header {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(255, 255, 255, 0.125);
+}
+
 #portfolio-photo {
     height: 200px;
     width: 133px;
@@ -57,21 +84,17 @@ blockquote {
     margin: 0 5rem 1rem;
 }
 
-.a-s-l {
-    text-align: center;
-}
-
 /* Main Styles */
 body {
-    background-color: black;
+    background-color: #191a1a;
     color: white;
 }
 
-.center {
+.heading {
+    align-items: center;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: rgba(255, 255, 255, 0.125);
     padding: 2rem;
 
 }
@@ -82,7 +105,7 @@ body {
     z-index: 1;
     padding: 2rem 2rem;
     overflow: hidden;
-    background-color: black;
+    background-color: #191a1a;
 }
 
 .about-me {
@@ -92,31 +115,19 @@ body {
 }
 
 .gradient {
-    background-image: linear-gradient(to right,#ff8a00,#da1b60);
-    position: relative;
+    background-image: url("https://image.freepik.com/free-photo/tropical-green-leaves-background_53876-88891.jpg");
+    background-size: auto;
+    box-shadow: 0 1px 4px #000;
 }
 
-.gradient-d {
-    background-image: linear-gradient(to right, #35D8B3, #fffb00);
-}
-
-.gradient-c {
-    background-image: linear-gradient(to right, #fffb00, #ae00ff);
+.about-me {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
 }
 
 .gradient-content {
     padding: calc(200px + 1rem) 2rem 0 2rem;
     margin-top: -200px;
     overflow: hidden;
-}
-
-.inner-gradient-content {
-    max-width: var(--maxWidth);
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    align-items: center;
 }

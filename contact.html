@@ -5,26 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Dylan Armstrong</title>
+    <title>» Contact</title>
     <!-- Linking Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/hover.css">
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
 </head>
 
 <body>
-    <div class="gradient-c">
+    <div class="ocean">
         <nav class="clearfix">
             <div class="left"><a href="./index.html" class="nav-link">Dylan Armstrong</a></div>
             <ul class="nav nav-tabs right">
-                <li class="nav-item inline-block"><a href="./resume.html"
-                        class="nav-link hvr-sweep-to-right hvr-icon-fade"><i
-                            class="far fa-file-alt hvr-icon"></i>Resume</a></li>
                 <li class="nav-item inline-block"><a href="./deployedprojects.html"
-                        class="nav-link hvr-sweep-to-top hvr-icon-fade"><i class="fas fa-sitemap hvr-icon"></i>Deployed
+                        class="nav-link hvr-sweep-to-right hvr-icon-fade"><i
+                            class="fas fa-sitemap hvr-icon"></i>Deployed
                         Projects</a></li>
                 <li class="nav-item inline-block"><a href="./contact.html"
                         class="nav-link hvr-sweep-to-left hvr-icon-fade"><i
@@ -32,51 +30,43 @@
             </ul>
         </nav>
     </div>
-    <header>
-        <div class="center">
-            <a><img id="portfolio-photo" alt="Dylan Armstrong" src="./assets/images/headshots/Dylan6.jpg"></a>
-            <a href="https://github.io/DoleTM/">Dylan Armstrong</a>
-            <blockquote>
-                <p><em>"The art of communication is the language of leadership"</em>- James Humes</p>
-            </blockquote>
-        </div>
-    </header>
-    <main>
-        <div class="clearfix row main-content">
-            <div class="contact col sm-col-6">
-                <div class="find-me">
-                <a href="https://www.linkedin.com/in/dylan-armstrong/"><img
-                        src="./assets/images/icons/icons8-linkedin.svg" />Linked In</a>
-                <a href="https://github.com/doletm"><img class="github"
-                        src="./assets/images/icons/icons8-github-filled.svg" />GitHub</a>
-                <a><img src="./assets/images/icons/icons8-gmail.svg" />Gmail: Dylan.Craig.Armstrong@gmail.com</a>
+    <main id="contact-main">
+        <div id="contact-me">
+            <div id="img-div">
+                <img id="contact-img" src="./assets/images/headshots/dylan3.jpg"
+                    alt="Dylan Armstrong Portfolio Picture">
             </div>
-                <form class="message-me justify-content-center" method="POST" action="https://doletm.github.io/Portfolio/contact.html">
-                    <div class="form-group">
-                        <label for="Name">Full Name</label>
-                        <input type="text" class="form-control" id="contact-name" placeholder="Abe Froman">
-                    </div>
-                    <div class="form-group">
-                        <label for="Email">Email address</label>
-                        <input type="email" class="form-control" id="contact-email"
-                            placeholder="sausage.king.of.chicago@example.com">
-                    </div>
-                    <div>
-                        <textarea class="form-control" id="contact-message" placeholder="Message" rows="3"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-outline-light">Send Message</button>
-                </form>
-            </div>
-        </div>
-        <div class="gradient-c">
-            <div class="gradient-content">
-                <!-- <label class="switch">
-                        <input type="checkbox">
-                        <span class="slider"></span>
-                    </label> -->
-            </div>
+            <aside>
+                <h3>Lets stay in touch</h3>
+                <blockquote>
+                    <p><em>"The art of communication is the language of leadership"</em>- James Humes</p>
+                </blockquote>
+                <p>
+                    <i class="fas fa-envelope-square"></i> Email:
+                    <a class="links" href="mailto:dylan.craig.armstrong@gmail.com">
+                        Dylan.Craig.Armstrong@gmail.com</a>
+                </p>
+                <p><i class="fas fa-phone-square-alt"></i> Tel: (407) 230-1632</p>
+                <p>
+                    <i class="fab fa-linkedin"></i>
+                    <a class="links" href="https://www.linkedin.com/in/dylan-armstrong/"> Linked In</a>
+                </p>
+                <p>
+                    <i class="fab fa-github-square"></i>
+                    <a class="links" href="https://github.com/DoleTM"></i> Github</a>
+                </p>
+
+
+                <p><a href="#"><i class="far fa-file-pdf"></i> View Resume PDF</a></p>
+                <div class="underline"></div>
+            </aside>
         </div>
     </main>
+    <footer class="ocean">
+            <div class="gradient-content">
+
+            </div>
+        </footer>
 </body>
 
 </html>

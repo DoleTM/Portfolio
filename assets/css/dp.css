@@ -1,0 +1,126 @@
+/* Deployed Projects Styles */
+html {
+    box-sizing: border-box;
+}
+
+nav {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(0,0,0,.125);
+}
+
+.left {
+    float: left;
+    display: block;
+}
+
+.left a:hover {
+    background: linear-gradient(#ff8a00,#da1b60);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.right {
+    float: right;
+}
+
+.nav-link {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    display: inline-block;
+    color: white;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.hvr-sweep-to-right:before {
+    background-image: url("https://image.freepik.com/free-photo/decorative-background-wood-texture_23-2148210007.jpg");
+}
+
+.hvr-sweep-to-left:before {
+    background-image: url("https://image.freepik.com/free-photo/wave-sea_1150-10745.jpg");
+}
+
+.hvr-icon-fade:hover .hvr-icon, .hvr-icon-fade:focus .hvr-icon, .hvr-icon-fade:active .hvr-icon {
+    color: black;
+  }
+
+.gradient-d {
+    background-image: url("https://image.freepik.com/free-photo/decorative-background-wood-texture_23-2148210007.jpg");
+    box-shadow: 0 1px 4px #000;
+}
+
+h4, h3 {
+    background: linear-gradient(#35D8B3, #fffb00);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.inner-gradient-content {
+    max-width: var(--maxWidth);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.gradient-content {
+    padding: calc(200px + 1rem) 2rem 0 2rem;
+    margin-top: -200px;
+    overflow: hidden;
+}
+
+.all-work {
+    position: relative;
+    background-image: url("https://image.freepik.com/free-photo/decorative-background-wood-texture_23-2148210007.jpg");
+    display: block;
+}
+
+.work {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: table;
+}
+
+.work-content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 3em;
+    height: 35em;
+}
+
+#safely {
+    background-image: url("https://cdn-image.travelandleisure.com/sites/default/files/1530827418/Roman-amphitheater-Nimes-RTTNIMES0718.jpg");
+
+}
+
+#furiends {
+    background-image: url("../images/logos/furiends.JPG");
+    background-position: bottom center;
+}
+
+#webscrape {
+    background-image: url("https://energyandcarbon.com/wp-content/uploads/2015/02/images.duckduckgo.com_1.jpg");
+}
+
+#theoffice {
+    background-image: url("https://images6.alphacoders.com/542/542776.jpg");
+    background-position: center;
+        border-bottom-right-radius: 30%;
+    position: relative;
+    z-index: 1;
+    padding: 2rem 2rem;
+    overflow: hidden;
+    background-color: #191a1a;
+}

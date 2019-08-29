@@ -1,0 +1,118 @@
+/* Contact Styles */
+html {
+    box-sizing: border-box;
+}
+
+nav {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(0,0,0,.125);
+}
+
+.left {
+    float: left;
+    display: block;
+}
+
+.left a:hover {
+    background: linear-gradient(#ff8a00,#da1b60);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.right {
+    float: right;
+}
+
+.nav-link {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    display: inline-block;
+    color: white;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.hvr-sweep-to-right:before {
+    background-image: url("https://image.freepik.com/free-photo/decorative-background-wood-texture_23-2148210007.jpg");
+}
+
+.hvr-sweep-to-left:before {
+    background-image: url("https://image.freepik.com/free-photo/wave-sea_1150-10745.jpg");
+}
+
+.hvr-icon-fade:hover .hvr-icon, .hvr-icon-fade:focus .hvr-icon, .hvr-icon-fade:active .hvr-icon {
+    background: linear-gradient(#000000,#1dd15d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.ocean {
+    background-image: url("https://image.freepik.com/free-photo/wave-sea_1150-10745.jpg");
+    box-shadow: 0 1px 4px #000;
+}
+
+.gradient-content {
+    padding: calc(200px + 1rem) 2rem 0 2rem;
+    margin-top: -200px;
+    overflow: hidden;
+}
+
+body {
+    background-color: #191a1a;
+    color: white;
+}
+
+#contact-main {
+    padding-top: 2%;
+    border-bottom-right-radius: 30%;
+    position: relative;
+    z-index: 1;
+    padding: 2rem 2rem;
+    overflow: hidden;
+    background-color: #191a1a;
+}
+
+#contact-me {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    font-size: 15px;
+
+}
+
+#img-div {
+    background-color: #191a1a;
+    display: block;
+    padding-left: 15%;
+    padding-bottom: 5%;
+    width: 51%;
+}
+
+#contact-img {
+    width: 350px;
+    height: 250px;
+}
+
+aside {
+    display: block;
+    width: 50%;
+    border-bottom-right-radius: 30%;
+    background-color: #191a1a;
+}
+
+.underline {
+    display: block;
+    background-color: #919191;
+    width: 40%;
+    height: 1px;
+    margin-top: 40px;
+}
