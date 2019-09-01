@@ -39,7 +39,7 @@ nav {
 }
 
 .hvr-sweep-to-right:before {
-    background-image: url("https://image.freepik.com/free-photo/decorative-background-wood-texture_23-2148210007.jpg");
+    background-image: url("https://image.freepik.com/free-photo/dry-cracked-ground-texture_1232-3134.jpg");
 }
 
 .hvr-sweep-to-left:before {
@@ -107,6 +107,18 @@ aside {
     width: 50%;
     border-bottom-right-radius: 30%;
     background-color: #191a1a;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+}
+
+.links:hover {
+    background: linear-gradient(#000000,#1dd15d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
 }
 
 .underline {
