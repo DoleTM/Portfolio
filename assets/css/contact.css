@@ -112,8 +112,29 @@ aside {
     color: white;
 }
 
-.links:hover {
-    background: linear-gradient(#000000,#1dd15d);
+#gmail-link:hover {
+    background: linear-gradient(#c64b3f,#af3625);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+#linkedin-link:hover {
+    background: linear-gradient(#283e4a,#0077b5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+#github-link:hover {
+    background: linear-gradient(#dbedff,#eafef0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+#resume-link:hover {
+    background: linear-gradient(#e00f12,#2d120a);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 

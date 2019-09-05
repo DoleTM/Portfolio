@@ -63,7 +63,14 @@ main {
     font-weight: bold;
 }
 
-h4, h3 {
+.work-content-a h4, .work-content-a h3 {
+    background: linear-gradient(#f3cb77, #fec774);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.work-content-b h4, .work-content-b h3 {
     background: linear-gradient(#5c7f92, #18283e);
     background-clip: text;
     -webkit-background-clip: text;
@@ -99,7 +106,7 @@ h4, h3 {
     display: table;
 }
 
-.work-content {
+.work-content-a, .work-content-b {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
@@ -107,7 +114,7 @@ h4, h3 {
     height: 35em;
 }
 
-.work-content a {
+.work-content-a a, .work-content-b a {
     margin: 0.5em 0;
     display: inline-flex;
     border: 2px solid #f9f9f9;
@@ -117,7 +124,12 @@ h4, h3 {
     color: #f9f9f9;
 }
 
-.work-content a:hover {
+.work-content-a a:hover {
+    background-image: linear-gradient(#f3cb77, #ced474);
+    color: black;
+}
+
+.work-content-b a:hover {
     background-image: linear-gradient(#5c7f92, #18283e);
     color: black;
 }
