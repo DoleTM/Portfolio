@@ -41,6 +41,11 @@ h2 {
     color: white;
 }
 
+.nav-link.nav-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .nav-link:hover {
     color: black;
 }
@@ -88,6 +93,7 @@ blockquote {
 body {
     background-color: #191a1a;
     color: white;
+    overflow: hidden;
 }
 
 .heading {
@@ -103,7 +109,6 @@ body {
     border-bottom-right-radius: 30%;
     position: relative;
     z-index: 1;
-    padding: 2rem 2rem;
     overflow: hidden;
     background-color: #191a1a;
 }
@@ -121,9 +126,9 @@ body {
 }
 
 .about-me {
-    margin: auto;
-    width: 60%;
     padding: 10px;
+    line-height: 1.5;
+    min-width: 75%;
 }
 
 .gradient-content {
